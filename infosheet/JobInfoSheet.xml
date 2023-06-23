@@ -181,8 +181,8 @@
     <JobA4Print ElementXPath="/JobSpec[1]/JobA4Print[1]"></JobA4Print>
     <JobA4PrintQuantity ElementXPath="/JobSpec[1]/JobA4PrintQuantity[1]"></JobA4PrintQuantity>
     <JobCustomerProof ElementXPath="/JobSpec[1]/JobCustomerProof[1]"></JobCustomerProof>
-    <JobCustomerAndInvoicePayer ElementXPath="/JobSpec[1]/JobCustomerAndInvoicePayer[1]">ADAPA</JobCustomerAndInvoicePayer>
-    <JobPrintHouse ElementXPath="/JobSpec[1]/JobPrintHouse[1]">ADAPA</JobPrintHouse>
+    <JobCustomerAndInvoicePayer ElementXPath="/JobSpec[1]/JobCustomerAndInvoicePayer[1]"></JobCustomerAndInvoicePayer>
+    <JobPrintHouse ElementXPath="/JobSpec[1]/JobPrintHouse[1]"></JobPrintHouse>
     <JobCustomerProofQuantity ElementXPath="/JobSpec[1]/JobCustomerProofQuantity[1]"></JobCustomerProofQuantity>
     <JobCustomerProofFormat ElementXPath="/JobSpec[1]/JobCustomerProofFormat[1]"></JobCustomerProofFormat>
     <JobPrintHouseProofFormat ElementXPath="/JobSpec[1]/JobPrintHouseProofFormat[1]"></JobPrintHouseProofFormat>
