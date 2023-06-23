@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Kelvin Wan (Creo Inc.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="JobSpec">
+		<xs:annotation>
+			<xs:documentation>Job Spec Root</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:all>							
+				<xs:element name="JobDescription" type="xs:string"/>
+				<xs:element name="Comments" type="xs:string"/>
+				<xs:element name="DesignInfo">
+					<xs:complexType>
+						<xs:all>
+							<xs:element name="TotalQuantity" type="xs:int"/>
+							<xs:element name="NumberOfPages" type="xs:int"/>
+							<xs:element name="CoverStock">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+									  <xs:enumeration value=""/>
+										<xs:enumeration value="95lb"/>
+										<xs:enumeration value="100lb"/>
+										<xs:enumeration value="120lb"/>
+										<xs:enumeration value="130lb"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="PaperStock">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+									  <xs:enumeration value=""/>
+										<xs:enumeration value="65lb Matte"/>
+										<xs:enumeration value="65lb Gloss"/>
+										<xs:enumeration value="80lb Matte"/>
+										<xs:enumeration value="80lb Gloss"/>
+										<xs:enumeration value="95lb Matte"/>
+										<xs:enumeration value="95lb Gloss"/>
+										<xs:enumeration value="100lb Matte"/>
+										<xs:enumeration value="100lb Gloss"/>
+										<xs:enumeration value="120lb Matte"/>
+										<xs:enumeration value="120lb Gloss"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="FinalTrimSize">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+									  <xs:enumeration value=""/>
+										<xs:enumeration value="3.5x2"/>
+										<xs:enumeration value="5x7"/>
+										<xs:enumeration value="8.5x11"/>
+										<xs:enumeration value="8.5x14"/>
+										<xs:enumeration value="11x17"/>
+										<xs:enumeration value="A3"/>
+										<xs:enumeration value="A4"/>
+										<xs:enumeration value="A5"/>
+										<xs:enumeration value="Envelope #10"/>
+										<xs:enumeration value="Envelope DL"/>
+										<xs:enumeration value="Envelope Monarch"/>
+										<xs:enumeration value="Custom"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="FinalTrimWidth" type="xs:string"/>
+							<xs:element name="FinalTrimHeight" type="xs:string"/>
+							<xs:element name="ProcessColors">
+							  <xs:complexType>
+							    <xs:attribute name="Cyan" default="yes">
+							      <xs:simpleType>
+							        <xs:restriction base="xs:string">
+							          <xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+							        </xs:restriction>
+							      </xs:simpleType>
+							    </xs:attribute>
+							    <xs:attribute name="Magenta" default="yes">
+							      <xs:simpleType>
+							        <xs:restriction base="xs:string">
+							          <xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+							        </xs:restriction>
+							      </xs:simpleType>
+							    </xs:attribute>
+							    <xs:attribute name="Yellow" default="yes">
+							      <xs:simpleType>
+							        <xs:restriction base="xs:string">
+							          <xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+							        </xs:restriction>
+							      </xs:simpleType>
+							    </xs:attribute>
+							    <xs:attribute name="Black" default="yes">
+							      <xs:simpleType>
+							        <xs:restriction base="xs:string">
+							          <xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+							        </xs:restriction>
+							      </xs:simpleType>
+							    </xs:attribute>
+							  </xs:complexType>
+							</xs:element>
+							<xs:element name="Spot1" type="xs:string"/>
+							<xs:element name="Spot2" type="xs:string"/>
+							<xs:element name="Spot3" type="xs:string"/>
+							<xs:element name="Spot4" type="xs:string"/>
+							<xs:element name="Bleed">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+									  <xs:enumeration value=""/>
+										<xs:enumeration value="full bleed"/>
+										<xs:enumeration value="white border no bleed"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="SpecialFinishing">
+								<xs:complexType>
+									<xs:attribute name="Scoring" default="yes">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								  <xs:attribute name="Perforation" default="no">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="DieCut" default="no">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+											  <xs:enumeration value=""/>
+												<xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Glue" default="no">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="Tabs" default="no">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:enumeration value="yes"/>
+												<xs:enumeration value="no"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:all>
+					</xs:complexType>
+				</xs:element>
+			</xs:all>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

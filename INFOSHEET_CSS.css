@@ -1,0 +1,1195 @@
+/* ====================================== */
+/* ACTIONS */
+.ActionNewJob_CSS {
+  background-color: #79f5b7;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #006633;
+  color: #006633;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.ActionPlateRenewal_CSS {
+  background-color: #ccccff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #161650;
+  color: #161650;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.ActionPlateModification_CSS {
+  background-color: #ffd698;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #3e2723;
+  color: #3e2723;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.ActionPlateComplaint_CSS {
+  background-color: #f08585;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #240404;
+  color: #240404;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+/*  ====================================== */
+/*  STATUS */
+.StatusJobCreated_CSS {
+  background-color: #8ccdeb;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #003f6e;
+  color: #003f6e;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.StatusProjectOrdered_CSS {
+  background-color: #d4eb96;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #404b11;
+  color: #404b11;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.StatusProofOrdered_CSS {
+  background-color: #ccb3ff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #311b92;
+  color: #311b92;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.StatusPlatesOrdered_CSS {
+  background-color: #fffd6a;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #171800;
+  color: #171800;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.StatusProductionInProgress_CSS {
+  background-color: #ffcc80;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #4e342e;
+  color: #4e342e;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.StatusJobReady_CSS {
+  background-color: #99f599;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #024202;
+  color: #024202;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.StatusJobCanceled_CSS {
+  background-color: #f08585;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #240404;
+  color: #240404;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ========================================= */
+/* ADDITIONAL ACTION */
+.AdditionalAction_Enabled_SelectInput {
+  background-color: #fff;
+  width: auto;
+  padding: 1 5 1 5;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+
+}
+
+/*  ======================================== */
+/* TABS + TAB_LABELS  */
+
+#reproLabel {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 50px;
+  padding: 20;
+}
+
+#proofLabel {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+#platesLabel {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+
+#renewalLabel {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#modificationLabel {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#complaintLabel {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#summaryLabel {
+  color: #3f3f3f;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  width: 150px;
+}
+
+#summaryTab {
+  width: 150px;
+  border-right: solid #3f3f3f 1px;
+
+}
+
+
+.enabled_tab {
+  background: #e3e3e3;
+  width: auto;
+  border-left: solid #3f3f3f 1px;
+  border-top: solid #3f3f3f 1px;
+  border-bottom: solid #e3e3e3 1px;
+  padding: 5 15 5 15;
+}
+
+.disabled_tab {
+  background: #b8b8b8;
+  width: auto;
+  border-left: solid #3f3f3f 1px;
+  border-bottom: solid #3f3f3f 1px;
+  border-top: solid #3f3f3f 1px;
+  padding: 5 15 5 15;
+}
+
+/*  ======================================= */
+/* DIV LABELS */
+.StandardLabel {
+  border: none;
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #3f3f3f;
+}
+
+.SummaryLabel {
+  border: none;
+  background-color: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #d4d4d4;
+}
+
+/*  ======================================= */
+/* PROJECT DIV */
+
+.ProjectDiv_Disabled_DateInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+}
+
+.ProjectDiv_Enabled_DateInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 1 5 1 5;
+  text-align: center;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ProjectDiv_Disabled_TextInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 15 1 15;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 75px;
+}
+
+.ProjectDiv_Enabled_TextInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  padding: 1 5 1 5;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  background: white;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: text;
+  width: 60px;
+}
+
+.ProjectDiv_Enabled_SelectInput {
+  background-color: #fff;
+  width: auto;
+  padding: 1 5 1 5;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.ProjectDiv_Disabled_SelectInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid rgb(85, 85, 85);
+  ;
+  border-radius: 5px;
+  padding: 1 25 1 25;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  ;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 75px;
+}
+
+.ProjectDiv_Enabled_TextArea {
+  width: 100%;
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: text;
+  resize: none;
+  padding: 10 10 10 10;
+  height: 100;
+  width: 850;
+}
+
+.ProjectDiv_Disabled_TextArea {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  padding: 1 25 1 25;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  padding: 10 10 10 10;
+  resize: none;
+  height: 100;
+  width: 850;
+}
+
+/* =============================== */
+/* PROOF  DIV */
+
+.ProofDiv_Disabled_TextInput {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  max-width: 300px;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  width: 100%;
+  min-width: 30px;
+}
+
+.ProofDiv_Disabled_TextArea {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  resize: none;
+  height: 50px;
+  width: 700px;
+}
+
+.ProofDiv_Disabled_DateInput {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #808080;
+  font-weight: normal;
+  text-align: center;
+  color: none;
+  cursor: not-allowed;
+}
+
+
+.ProofDiv_Enabled_DateInput {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #3f3f3f;
+  font-weight: normal;
+  text-align: center;
+  color: none;
+}
+
+.ProofDiv_Enabled_SelectInput {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  color: #3f3f3f;
+  font-weight: normal;
+  text-align: left;
+  color: none;
+}
+
+.ProofDiv_Enabled_TextArea {
+  width: 100%;
+  height: 50px;
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  text-align: left;
+  vertical-align: middle;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: text;
+  resize: none;
+}
+
+.ProofDiv_Enabled_TextInput {
+  width: 100%;
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  text-align: center;
+  color: #3F3F3F;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  min-width: 40px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select:disabled {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 1 15 1 15;
+}
+
+
+
+.AddMoreProof {
+  color: #ffffff;
+  background-color: #3F3F3F;
+  font-weight: bold;
+  font-size: 13;
+  padding: 2 10 2 10;
+  font-family: Roboto;
+  border-radius: 7px;
+  position: fixed;
+}
+
+/*  ======================================= */
+/* PLATES DIV */
+
+.PlatesDiv_Disabled_DateInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+}
+
+.PlatesDiv_Enabled_DateInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 1 5 1 5;
+  text-align: center;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.PlatesDiv_Disabled_TextInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 15 1 15;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 70px;
+  ;
+}
+
+.PlatesDiv_Enabled_TextInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  padding: 1 5 1 5;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  background: white;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: text;
+  width: 60px;
+}
+
+.PlatesDiv_Enabled_SelectInput {
+  background-color: #fff;
+  width: auto;
+  padding: 1 5 1 5;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.PlatesDiv_Disabled_SelectInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  ;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 75px;
+}
+
+.PlatesDiv_Enabled_TextArea {
+  width: 100%;
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: text;
+  resize: none;
+  padding: 10 10 10 10;
+  height: 100;
+  width: 850;
+}
+
+.PlatesDiv_Disabled_TextArea {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 25 1 25;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  padding: 10 10 10 10;
+  height: 100;
+  width: 850;
+}
+
+/*  ======================================= */
+/* REN DIV */
+
+.RenDiv_Disabled_DateInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+}
+
+.RenDiv_Enabled_DateInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 1 5 1 5;
+  text-align: center;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.RenDiv_Disabled_TextInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 15 1 15;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 70px;
+  ;
+}
+
+.RenDiv_Enabled_TextInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  padding: 1 5 1 5;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  background: white;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: text;
+  width: 60px;
+}
+
+.RenDiv_Enabled_SelectInput {
+  background-color: #fff;
+  width: auto;
+  padding: 1 5 1 5;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.RenDiv_Disabled_SelectInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  ;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 75px;
+}
+
+.RenDiv_Enabled_TextArea {
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: text;
+  resize: none;
+  padding: 10 10 10 10;
+  height: 100;
+  width: 800;
+}
+
+.RenDiv_Disabled_TextArea {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 25 1 25;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  padding: 10 10 10 10;
+  height: 100;
+  width: 850;
+}
+
+/* =============================== */
+
+/* MOD DIV */
+
+.ModDiv_Disabled_DateInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+}
+
+.ModDiv_Enabled_DateInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 1 5 1 5;
+  text-align: center;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ModDiv_Disabled_TextInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 15 1 15;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 70px;
+  ;
+}
+
+.ModDiv_Enabled_TextInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  padding: 1 5 1 5;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  background: white;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: text;
+  width: 60px;
+}
+
+.ModDiv_Enabled_SelectInput {
+  background-color: #fff;
+  width: auto;
+  padding: 1 5 1 5;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.ModDiv_Disabled_SelectInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  ;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 75px;
+}
+
+.ModDiv_Enabled_TextArea {
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: text;
+  resize: none;
+  padding: 10 10 10 10;
+  height: 100;
+  width: 800;
+}
+
+.ModDiv_Disabled_TextArea {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 25 1 25;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  padding: 10 10 10 10;
+  height: 100;
+  width: 850;
+}
+
+/* =============================== */
+
+/* Com DIV */
+
+.ComDiv_Disabled_DateInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+}
+
+.ComDiv_Enabled_DateInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 1 5 1 5;
+  text-align: center;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ComDiv_Disabled_TextInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 15 1 15;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 70px;
+  ;
+}
+
+.ComDiv_Enabled_TextInput {
+  appearance: none;
+  -webkit-appearance: none;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  padding: 1 5 1 5;
+  border: 1px solid dimgray;
+  border-radius: 5px;
+  background: white;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: text;
+  width: 60px;
+}
+
+.ComDiv_Enabled_SelectInput {
+  background-color: #fff;
+  width: auto;
+  padding: 1 5 1 5;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.ComDiv_Disabled_SelectInput {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid rgb(85, 85, 85);
+  border-radius: 5px;
+  padding: 1 5 1 5;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  ;
+  cursor: not-allowed;
+  word-break: break-all;
+  width: 75px;
+}
+
+.ComDiv_Enabled_TextArea {
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  background: #fff;
+  text-align: left;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: text;
+  resize: none;
+  padding: 10 10 10 10;
+  height: 100px;
+  width: 800px;
+}
+
+.ComDiv_Disabled_TextArea {
+  background-image: linear-gradient(to top, #ddd, #eee 33%);
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 1 25 1 25;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #808080;
+  cursor: not-allowed;
+  word-break: break-all;
+  padding: 10 10 10 10;
+  height: 100px;
+  resize: none;
+  width: 800px;
+}
+
+/* =============================== */
+
+/* SUMMARY DIV */
+
+.SummaryDiv_Disabled_TextInput {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  width: 100%;
+}
+
+.SummaryDiv_Disabled_TextArea {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: left;
+  color: #808080;
+  cursor: not-allowed;
+  resize: none;
+}
+
+.SummaryDiv_Disabled_DateInput {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  color: #808080;
+  text-align: center;
+  color: none;
+  cursor: not-allowed;
+}
+
+.SummaryDiv_Enabled_DateInput {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  color: #3F3F3F;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: none;
+}
+
+.SummaryDiv_Enabled_SelectInput {
+  width: 100%;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  color: #3F3F3F;
+  text-align: center;
+  color: none;
+}
+
+.SummaryDiv_Enabled_TextArea {
+  width: 100%;
+  height: 50px;
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  background: none;
+  text-align: left;
+  vertical-align: middle;
+  color: #3f3f3f;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  cursor: text;
+  resize: none;
+}
+
+.SummaryDiv_Enabled_TextInput {
+  width: 100%;
+  padding: 1 5 1 5;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  text-align: center;
+  color: #3F3F3F;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.SummaryACTIVATORDiv_Enabled_SelectInput {
+  background-color: #fff;
+  width: auto;
+  padding: 1 5 1 5;
+  border: solid dimgray 1px;
+  border-radius: 5px;
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+/* =============================== */
+::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  height: 15px;
+  width: 15px;
+}
+
+.chbx_class {
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: center;
+  color: #808080;
+  cursor: not-allowed;
+  width: auto;
+}
+
+
+/*  -------------------------------------------------------------------------------------------------------------------------- */
+/*  HOVER TABLE - STYLE FOR HIGHLIGHTING THE TABLE  */
+.hoverTable tr:hover {
+  background-color: #62b9ff;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
